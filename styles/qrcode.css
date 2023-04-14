@@ -1,0 +1,54 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    margin: 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container_qr {
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1.2rem;
+    width: 280px;
+    height: 430px;
+    position: absolute;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+.image_qr {
+    margin-top: 5%;
+    border-radius: 0.5rem;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    display: inline-flex;
+}
+
+.paragraph_qr {
+    margin: 15px 30px;
+}
+
+.paragraph_qr p {
+    font-family: 'Outfit', sans-serif;
+}
+
+.msgBold {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.msgTiny {
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 13px;
+}
